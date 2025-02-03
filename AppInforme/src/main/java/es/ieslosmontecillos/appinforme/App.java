@@ -18,7 +18,7 @@ public class App extends Application {
         conectaBD();
         App.stage = stage;
         FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("menu-view.fxml"));
-        Scene scene = new Scene(fxmlLoader.load(), 500, 340);
+        Scene scene = new Scene(fxmlLoader.load(), 500, 80);
         stage.setTitle("Hello!");
         stage.setScene(scene);
         stage.show();
